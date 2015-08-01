@@ -1,5 +1,5 @@
 <?php
-Route::get('/', 'TodoController@index');
+Route::get('/', 'TodoController@index'); // Show home.blade.php
 
 Route::post('/','TodoController@store');
 
